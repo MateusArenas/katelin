@@ -7,11 +7,13 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
             position: relative;
+            text-align: center; /* centraliza o texto abaixo da imagem */
         }
         .imagem-container {
             position: relative;
@@ -29,12 +31,21 @@
             font-size: 2em; /* ajuste o tamanho da fonte conforme necessário */
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* sombra para melhor legibilidade */
         }
+        .mensagem {
+            margin-top: 20px; /* espaço entre a imagem e o texto abaixo */
+            color: black; /* cor do texto abaixo */
+            font-size: 1.5em; /* ajuste o tamanho da fonte conforme necessário */
+            max-width: 600px; /* limite de largura do texto */
+        }
     </style>
 </head>
 <body>
     <div class="imagem-container">
-        <img src="assets/WhatsApp Image 2024-09-04 at 12.40.57.jpeg" alt="Imagem" class="imagem">
+        <img src="sua-imagem.jpg" alt="Imagem" class="imagem">
         <div class="texto">Eu te amo! ❤️</div>
+    </div>
+    <div class="mensagem">
+        Hoje, 12 de outubro, comemoramos três meses desde que começamos nossa jornada juntos. Um dia especial que começou no Dia dos Namorados e se transformou em algo ainda mais lindo. A cada dia ao seu lado, meu amor por você só cresce. Sou grato por todos os momentos que compartilhamos e por tudo que você significa para mim. Eu te amo profundamente e mal posso esperar para ver o que o futuro nos reserva!
     </div>
 </body>
 </html>
